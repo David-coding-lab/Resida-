@@ -1,43 +1,43 @@
 :root {
-    --primary-color-green: #1f4b43;
-    --secondry-font: "manrope";
-    --secondary-color-orange: #dba94d;
+  --primary-color-green: #1f4b43;
+  --secondry-font: "manrope";
+  --secondary-color-orange: #dba94d;
 }
-.hero{
-    width: 100vw;
-    height: 100vh;
-    background-image: url('../assets/lANDING-PAGE-IMG.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 10%;
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/lANDING-PAGE-IMG.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10%;
 }
-.hero-text{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
+.hero-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
-.hero_title{
-    color: var(--primary-color-green);
-    font-size: 4vw
+.hero_title {
+  color: var(--primary-color-green);
+  font-size: 3.5vw;
 }
-.hero_sub_title{
- color: rgba(0, 0, 0, 0.767);   
- font-size: 2.5vw;
+.hero_sub_title {
+  color: rgba(0, 0, 0, 0.767);
+  font-size: 2vw;
 }
-.hero-cta-btn{
-    margin-top: 2%;   
+.hero-cta-btn {
+  margin-top: 2%;
 }
-.hero_cta_btns{
+.hero_cta_btns {
   width: 180px;
-  height: 40px;
+  height: 50px;
   border-radius: 10px;
   border-bottom-left-radius: 0;
   border: 2px solid var(--primary-color-green);
@@ -46,41 +46,43 @@
   margin: 5px;
   font-family: monospace;
   cursor: pointer;
-
 }
-.download_cta_btn{
-    background-color: var(--primary-color-green);
-    color: white;
-    transition: background-color .2s ease-out, border-color .2s ease-out;
+.download_cta_btn {
+  background-color: var(--primary-color-green);
+  color: white;
+  transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
 }
-.learn_more_cta_btn{
-    transition: background-color .2s ease-out, border-color .2s ease-out, color .2s  ;
+.learn_more_cta_btn {
+  transition: background-color 0.2s ease-out, border-color 0.2s ease-out,
+    color 0.2s;
 }
-.download_cta_btn:hover, .learn_more_cta_btn:hover{
-    background-color: var(--secondary-color-orange);
-    border: none;
-    color: white;
+.download_cta_btn:hover,
+.learn_more_cta_btn:hover {
+  background-color: var(--secondary-color-orange);
+  border: none;
+  color: white;
 }
-.sub_hero_section{
-    width: 100vw;
-    height: 30vh;
-    background-color: var(--primary-color-green);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sub_hero_section {
+  width: 100vw;
+  height: 30vh;
+  background-color: var(--primary-color-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.sub_hero_text{
-    font-family: monospace;
+.sub_hero_text {
+  font-family: monospace;
 }
-.sub_hero_title, .sub_hero_sub_title{
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+.sub_hero_title,
+.sub_hero_sub_title {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.sub_hero_title{
-    font-size: 27px;
+.sub_hero_title {
+  font-size: 27px;
 }
-.sub_hero_cta{
+.sub_hero_cta {
   background-color: var(--secondary-color-orange);
   width: 180px;
   height: 40px;
@@ -92,39 +94,59 @@
   margin-left: 5%;
   font-family: monospace;
   cursor: pointer;
-  transition: background-color .2s ease, color .2s ease,    width .2s ease, height .2s ease;
-  -webkit-transition: background-color .2s ease, color .2s ease,    width .2s ease, height .2s ease;
-  -moz-transition: background-color .2s ease, color .2s ease,    width .2s ease, height .2s ease;
-  -ms-transition: background-color .2s ease, color .2s ease,    width .2s ease, height .2s ease;
-  -o-transition: background-color .2s ease, color .2s ease,    width .2s ease, height .2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
+    height 0.2s ease;
+  -webkit-transition: background-color 0.2s ease, color 0.2s ease,
+    width 0.2s ease, height 0.2s ease;
+  -moz-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
+    height 0.2s ease;
+  -ms-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
+    height 0.2s ease;
+  -o-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
+    height 0.2s ease;
 }
-.sub_hero_cta:hover{
+.sub_hero_cta:hover {
   background-color: white;
   color: var(--primary-color-green);
   width: 184px;
   height: 44px;
 }
-.exp_section{
-    width: 100vw;
-    height:  90vh;
+
+.exp_section {
+  width: 100vw;
+  height: 75vh;
+  background: linear-gradient(
+    80deg,
+    #fff,
+    #fff,
+    #fff,
+    #bbdbf344,
+    #bbdbf344,
+    #fff
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.exp_section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.exp_section_left img{
+    width: 25vw;
 }
-.exp_section_left{
-    /* width: 32em;
-    height: 35em;
-    background-color: blue;
-    border-radius: 20px;
-    border-top-left-radius: 40%;
-    border-bottom-right-radius: 40%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    border-top-left-radius: 30%;
-    border-bottom-right-radius: 30%; */
-    
+.exp_section_right {
+  width: 550px;
+  height: auto;
+    margin-bottom: 50px;
+}
+.exp_section_right h1{
+    font-size: 35px;
+    padding: 8px;
+    color: var(--primary-color-green);
+}
+.exp_section_right h3{
+    font-size: clamp(17px,20px,25px) ;
+    font-weight: 500;
+    padding: 8px;
+    color: var(--primary-color-green);
+}
+.exp_section_right article{
+    padding: 8px;
 }

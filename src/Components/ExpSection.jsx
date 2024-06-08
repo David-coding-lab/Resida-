@@ -1,16 +1,21 @@
-const ExpSection = ()=>{
-    return(
-        <section className="exp_section">
-            <section className="exp_section_left">
-                <div className="left_img_port">
-                    <img src="../assets/" alt="" className="exp_img_1" /><img src="" alt="" className="exp_img_2" />
-                </div>
-                <div className="right_img_port"></div>
-            </section>
-            <section className="exp_section_right">
-
-            </section>
-        </section>
-    )
-}
-export default ExpSection
+import expImg from "../assets/exp_img.png";
+const ExpSection = () => {
+  return (
+    <section className="exp_section">
+      <section className="exp_section_left">
+        <img src={expImg} alt="exp details" />
+      </section>
+      <section className="exp_section_right">
+        <h1>Resida is Not Just an App</h1>
+        <h3>We are an ecosystem with you in the center</h3>
+        <article>
+          Resida aims to bridge the gap between potential tenants and available
+          properties. This app is not just a tool; it's a solution for
+          individuals and families who are navigating the challenging terrain of
+          apartment hunting in a new or familiar city.
+        </article>
+      </section>
+    </section>
+  );
+};
+export default ExpSection;
