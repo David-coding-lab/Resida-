@@ -1,0 +1,96 @@
+/*Responsive design section */
+/* medium sized screen */
+@media (max-width: 1700px) {
+  .hero_title{
+    font-size: 4vw;
+  }
+  .hero_sub_title{
+    font-size: 2vw;
+  }
+}
+@media all and (max-width: 860px) {
+  .hero {
+    height: 90vh;
+  }
+  .sub_hero_sub_title {
+    font-size: 12px;
+  }
+  .sub_hero_cta {
+    width: 150px;
+  }
+}
+/* small sizd screen */
+@media all and (max-width: 750px) {
+  .hero {
+    height: 80vh;
+  }
+  .hero_title {
+    font-size: 5vw;
+  }
+  .hero_sub_title {
+    font-size: 2vw;
+  }
+  .sub_hero_sub_title {
+    font-size: 9.3px;
+  }
+  .sub_hero_cta {
+    width: 120px;
+  }
+}
+/* ertra small screen size */
+@media (max-width: 690px) {
+  .resida-text {
+    display: none;
+  }
+  .header_cta_contact {
+    width: 80px;
+  }
+  .header_cta_download-app {
+    width: 110px;
+    font-size: 12px;
+  }
+  .hero {
+    height: 70vh;
+  }
+  .hero_title {
+    margin-bottom: 10px;
+    font-size: 4vw;
+  }
+  .hero_sub_title {
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+  }
+  .sub_hero_section {
+    flex-direction: column;
+    height: 20vh;
+  }
+  .sub_hero_sub_title {
+    font-size: 0.7rem;
+  }
+  .sub_hero_cta {
+    width: 200px;
+    margin: 1%;
+  }
+}
+/* extra-small */
+@media (max-width: 490px) {
+  .header_right {
+    display: none;
+  }
+  .hand_buger_menu {
+    visibility: visible;
+  }
+  .hero-cta-btn{
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .download_cta_btn,.learn_more_cta_btn{
+    width: 130px;
+  }
+  .sub_hero_title{
+    font-size: 3vw;
+  }
+  .sub_hero_sub_title{
+    font-size: 2vw;
+  }
+}

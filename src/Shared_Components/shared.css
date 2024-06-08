@@ -1,0 +1,80 @@
+:root {
+  --primary-color-green: #1f4b43;
+  --secondry-font: "manrope";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--secondry-font);
+}
+/* header code */
+header {
+  width: flex;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-inline: 8%;
+  justify-content: space-between;
+}
+.header_left,.header_right{
+  display: flex;
+}
+.logo{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.hand_buger_btn{
+  background-color: white;
+  border: none;
+  
+}
+.hand_buger_menu{
+  width: 35px;
+  visibility: hidden;
+    
+}
+.resida-text{
+  font-size: 30px;
+  color: var(--primary-color-green);
+}
+.header_cta_contact, .header_cta_download-app {
+  display: grid;
+  place-content: center;
+  height: 34px;
+  width: 130px;
+  background-color: #fff;
+  color: var(--primary-color-green);
+  font-size: 14px; 
+  line-height: 30px;
+  border: none;
+  padding: 10px;
+  font-family: monospace;
+}
+.header_cta_download-app{
+  margin-left: 15px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: 2px solid var(--primary-color-green);
+  color: var(--primary-color-green);
+  font-weight: 900;
+  cursor: pointer;
+  transition: background-color .2s ease, color .2s ease;
+}
+.header_cta_contact{
+  cursor: pointer;
+  transition: font-weight .2s ease-in-out, font-size .2s ease-in-out;
+}
+.header_cta_contact:hover{
+  font-weight: 800;
+  font-size: 15px;
+}
+.header_cta_download-app:hover{
+  background-color: var(--primary-color-green);
+   color: white;
+}
+/* header ends */
+
