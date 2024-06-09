@@ -5,6 +5,8 @@ import Header from "./Shared_Components/Header"
 import Hero from './Components/Hero'
 import SubHero from './Components/SubHero'
 import ExpSection from './Components/ExpSection'
+import SubExpSection from './Components/SubExpSection'
+import QuickPreviewSection from './Components/QuickPreviewSection'
 
 export default function App(){
     return(
@@ -13,6 +15,8 @@ export default function App(){
             <Hero />
             <SubHero />
             <ExpSection />
+            <SubExpSection />
+            <QuickPreviewSection />
         </div>
     )
 }

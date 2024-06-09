@@ -1,5 +1,6 @@
 :root {
   --primary-color-green: #1f4b43;
+  --primary-color-green-thick: #1f4b43;
   --secondry-font: "manrope";
   --secondary-color-orange: #dba94d;
 }
@@ -128,25 +129,96 @@
   justify-content: center;
   align-items: center;
 }
-.exp_section_left img{
-    width: 25vw;
+.exp_section_left img {
+  width: 27vw;
+  margin: 10px;
 }
 .exp_section_right {
   width: 550px;
   height: auto;
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-.exp_section_right h1{
-    font-size: 35px;
-    padding: 8px;
-    color: var(--primary-color-green);
+.exp_section_right h1 {
+  font-size: 35px;
+  padding: 8px;
+  color: var(--primary-color-green-thick);
 }
-.exp_section_right h3{
-    font-size: clamp(17px,20px,25px) ;
-    font-weight: 500;
-    padding: 8px;
-    color: var(--primary-color-green);
+.exp_section_right h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px;
+  color: var(--primary-color-green);
 }
-.exp_section_right article{
-    padding: 8px;
+.exp_section_right article {
+  padding: 8px;
+  font-weight: 600;
+}
+.sub_exp_section {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  align-items: center;
+  width: 75vw;
+  height: 30vh;
+  margin: auto;
+}
+.sub_exp_img_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reabon {
+  position: relative;
+  bottom: 4vw;
+  left: 11vw;
+  width: 3vw;
+}
+.sub_exp_img_container img {
+  margin-inline: 5px;
+}
+.sub_exp_img_container :nth-child(2) {
+  width: 8vw;
+}
+.sub_exp_img_container :nth-child(3) {
+  width: 15vw;
+}
+.sub_exp_img_container :nth-child(4) {
+  width: 13vw;
+}
+.txt_container {
+  margin-left: 50px;
+  width: 450px;
+  color: var(--primary-color-green-thick);
+  font-size: 1vw;
+}
+.quick_preview_section{
+  width: 100vw;
+  height: 60vh;
+  background-image: url(../assets/quickPreviwe_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.quick_p_img_container img{
+  width: 40vw;
+}
+.quick_p_txt_container{
+  width: 50vw;
+  color: white;
+  padding: 10px;
+}
+.quick_p_cta_btn{
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: none;
+  margin: 10px;
 }
