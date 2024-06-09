@@ -33,6 +33,10 @@
   .quick_p_img_container img {
     width: 400px;
   }
+  .nguid_img_container img {
+    width: 40vw;
+    height: 100%;
+  }
 }
 /* small sizd screen */
 @media all and (max-width: 750px) {
@@ -134,6 +138,14 @@
   .quick_p_img_container img {
     width: 50vw;
   }
+  .nguid_img_container img {
+    width: 40vw;
+    height: 40vh;
+    margin-block: 55px;
+  }
+  .nguid_txt_container article {
+    font-size: 14px;
+  }
 }
 /* extra-small */
 @media (max-width: 490px) {
@@ -160,7 +172,7 @@
   }
   .exp_section {
     flex-direction: column-reverse;
-    background: linear-gradient(300deg, #fff, #fff, #bbdbf344,#bbdbf344, #fff);
+    background: linear-gradient(300deg, #fff, #fff, #bbdbf344, #bbdbf344, #fff);
     height: 50vh;
   }
   .exp_section_right {
@@ -171,7 +183,7 @@
     flex-direction: column-reverse;
     /* justify-content: center; */
     /* align-items: center; */
-    height: 20vh;
+    height: 30vh;
     width: 100vw;
   }
   .sub_exp_img_container :nth-child(2) {
@@ -208,5 +220,38 @@
     width: 100vw;
     text-align: center;
     font-weight: 700;
+  }
+  .neighborhoodGuid_section {
+    flex-direction: column;
+    height: 85vh;
+    width: 90vw;    
+  }
+  .nguid_img_container img {
+    width: 100%;
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+  }
+  .nguid_txt_container{
+    margin-block: 0;
+    margin-inline: 0;
+    display: flex;
+  }
+  .nguid_txt_container{
+    margin: 10px;
+    width: 80vw;
+  }
+  .nguid_txt_container div{
+    width: 70vw;
+  }
+  .nguid_txt_container h1{
+    font-size: 20px;
+  }
+  .nguid_txt_container h2{
+    font-size: 19px;
+  }
+  .nguid_txt_container button{
+    width: 200px;
+    margin-top: 100px;
   }
 }

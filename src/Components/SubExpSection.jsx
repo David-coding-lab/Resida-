@@ -6,7 +6,7 @@ const SubExpSection = () => {
   return (
     <div className="sub_exp_section">
       <div className="sub_exp_img_container">
-        <img className="reabon"src={reabon} alt="reabon" />
+        <img className="reabon" src={reabon} alt="reabon" />
         <img src={sub_img_1} alt="sub experience details" />
         <img src={sub_img_2} alt="sub experience details" />
         <img src={sub_img_3} alt="sub experience details" />
