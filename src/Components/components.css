@@ -4,6 +4,9 @@
   --secondry-font: "manrope";
   --secondary-color-orange: #dba94d;
 }
+button{
+  cursor: pointer;
+}
 /* new sectio */
 .hero {
   width: 100vw;
@@ -286,6 +289,7 @@
   display: flex;
 }
 /* sectoin ends */
+/* section begins */
 .property_sale_section {
   width: 100vw;
   height: 100vh;
@@ -293,19 +297,13 @@
   padding: 20px;
 }
 .property_heading {
-  /* padding-bottom: 20px; */
   padding-left: 10vw;
-}
-.prop_heading_img_container {
-  /* width: 15vw; */
 }
 .prop_heading_img_container img {
   margin-right: -17px;
 }
 
 .prop_heading_txt_container {
-  /* width: 25vw; */
-  /* letter-spacing: .7px; */
   color: var(--primary-color-green);
   padding-top: 30px;
 }
@@ -343,3 +341,4 @@
   width: auto;
   height: auto;
 }
+/* section ends */
