@@ -1,6 +1,6 @@
 /*Responsive design section */
 /* medium sized screen */
-@media (min-width: 1600px) {
+@media (min-width: 1100px) {
   .hero_title {
     font-size: 4vw;
   }
@@ -19,8 +19,21 @@
   .quick_p_txt_container {
     width: 420px;
   }
+  .Feaqured_Properties_Section {
+    height: 100vh;
+  }
+  .featured_title_container h1 {
+    font-size: 2vw;
+  }
+  .featured_title_container h3 {
+    font-size: 1.2vw;
+    font-weight: 700;
+  }
+  .cards {
+    margin-top: 2.5%;
+  }
 }
-@media all and (max-width: 860px) {
+@media all and (max-width: 900px) {
   .hero {
     height: 90vh;
   }
@@ -35,7 +48,30 @@
   }
   .nguid_img_container img {
     width: 40vw;
-    height: 100%;
+    height: 80%;
+  }
+  .Feaqured_Properties_Section {
+    height: 300vh;
+  }
+  .featured_items_cards_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards {
+    width: 70vw;
+  }
+  .img_container {
+    width: 90%;
+  }
+  .img_container img {
+    width: 100%;
+  }
+  .card_title {
+    font-size: 15px;
+  }
+  .details_btn_container button {
+    padding: 7px;
+    font-size: 10px;
   }
 }
 /* small sizd screen */
@@ -72,6 +108,9 @@
   }
   .quick_p_txt_container {
     font-size: 12px;
+  }
+  .featured_title_container {
+    width: 90vw;
   }
 }
 /* ertra small screen size */
@@ -138,6 +177,9 @@
   .quick_p_img_container img {
     width: 50vw;
   }
+  .neighborhoodGuid_section {
+    height: 75vh;
+  }
   .nguid_img_container img {
     width: 40vw;
     height: 40vh;
@@ -145,6 +187,15 @@
   }
   .nguid_txt_container article {
     font-size: 14px;
+  }
+  .Feaqured_Properties_Section {
+    height: 180vh;
+  }
+  .cards {
+    width: 51vw;
+  }
+  .img_container {
+    width: 50vw;
   }
 }
 /* extra-small */
@@ -173,7 +224,7 @@
   .exp_section {
     flex-direction: column-reverse;
     background: linear-gradient(300deg, #fff, #fff, #bbdbf344, #bbdbf344, #fff);
-    height: 50vh;
+    height: 60vh;
   }
   .exp_section_right {
     width: 70vw;
@@ -224,7 +275,7 @@
   .neighborhoodGuid_section {
     flex-direction: column;
     height: 85vh;
-    width: 90vw;    
+    width: 90vw;
   }
   .nguid_img_container img {
     width: 100%;
@@ -232,26 +283,27 @@
     margin: 0;
     padding: 0;
   }
-  .nguid_txt_container{
+  .nguid_txt_container {
     margin-block: 0;
     margin-inline: 0;
     display: flex;
   }
-  .nguid_txt_container{
+  .nguid_txt_container {
     margin: 10px;
     width: 80vw;
   }
-  .nguid_txt_container div{
+  .nguid_txt_container div {
     width: 70vw;
   }
-  .nguid_txt_container h1{
+  .nguid_txt_container h1 {
     font-size: 20px;
   }
-  .nguid_txt_container h2{
+  .nguid_txt_container h2 {
     font-size: 19px;
   }
-  .nguid_txt_container button{
+  .nguid_txt_container button {
     width: 200px;
-    margin-top: 100px;
+    margin-top: 80px;
+    padding: 10px;
   }
 }

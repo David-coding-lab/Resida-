@@ -8,7 +8,12 @@ import ExpSection from "./Components/ExpSection";
 import SubExpSection from "./Components/SubExpSection";
 import QuickPreviewSection from "./Components/QuickPreviewSection";
 import NeighborhoodGuid from "./Components/NeighborhoodGuid";
+import FeaquredPropertiesSection from "./Components/FeaquredPropertiesSection";
 
+
+export function randomNumber(){
+    return Math.floor(Math.random() * 10000)
+}
 export default function App() {
   return (
     <div>
@@ -19,6 +24,7 @@ export default function App() {
       <SubExpSection />
       <QuickPreviewSection />
       <NeighborhoodGuid />
+      <FeaquredPropertiesSection />
     </div>
   );
 }
