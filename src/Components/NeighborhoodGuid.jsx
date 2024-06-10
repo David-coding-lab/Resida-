@@ -1,3 +1,4 @@
+import DownloadBtn from "../Shared_Components/DownlloadBtn";
 import map from "../assets/Map 1.png";
 const NeighborhoodGuid = () => {
   return (
@@ -16,7 +17,7 @@ const NeighborhoodGuid = () => {
             🏡✨
           </article>
         </div>
-        <button>Download App</button>
+       <DownloadBtn addMargin={true}/>
       </div>
     </div>
   );

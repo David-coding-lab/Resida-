@@ -56,6 +56,7 @@
   .featured_items_cards_container {
     display: flex;
     flex-direction: column;
+    height: 90vh;
   }
   .cards {
     width: 70vw;
@@ -68,12 +69,20 @@
   .img_container img {
     width: 100%;
   }
+  .title_container {
+    width: 62vw;
+  }
   .card_title {
     font-size: 15px;
   }
   .details_btn_container button {
     padding: 7px;
     font-size: 10px;
+  }
+  .property_img_container {
+    width: 60vw;
+    height: 70vh;
+    overflow: hidden;
   }
 }
 /* small sizd screen */
@@ -111,17 +120,67 @@
   .quick_p_txt_container {
     font-size: 12px;
   }
-  .Feaqured_Properties_Section{
+  .Feaqured_Properties_Section {
     height: 150vh;
   }
-  .cards{
+  .cards {
     width: 55vw;
     margin: 0;
     margin-bottom: 0;
     margin-top: 0;
   }
+  .title_container {
+    width: 48vw;
+  }
   .featured_title_container {
     width: 90vw;
+  }
+  .property_sale_section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .property_heading {
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+  }
+  .prop_heading_txt_container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  .prop_heading_txt_container h1 {
+    font-size: 6vw;
+  }
+  .prop_heading_txt_container h2 {
+    font-size: 3.5vw;
+    margin-block: 7px;
+    width: 50vw;
+  }
+  .prop_heading_img_container img {
+    width: 8vw;
+  }
+  .property_img_container {
+    width: 100vw;
+    margin: 0;
+  }
+  .property_img_container img {
+    display: flex;
+    width: 75vw;
+  }
+  .property_cta_txt_btn {
+    width: 70vw;
+    align-items: center;
+    height: fit-content;
+  }
+  .property_cta_txt_btn p {
+    margin: 2%;
   }
 }
 /* ertra small screen size */
@@ -207,6 +266,9 @@
   }
   .img_container {
     width: 50vw;
+  }
+  .property_sale_section {
+    height: 70vh;
   }
 }
 /* extra-small */
@@ -316,5 +378,15 @@
     width: 200px;
     margin-top: 80px;
     padding: 10px;
+  }
+  .Feaqured_Properties_Section {
+    height: 170vh;
+  }
+  .property_sale_section {
+    height: 90vh;
+    margin-top: 20px;
+  }
+  .property_img_container {
+    overflow: visible;
   }
 }

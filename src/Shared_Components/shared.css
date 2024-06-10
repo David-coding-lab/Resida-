@@ -120,3 +120,26 @@ header {
   color: gray;
 }
 /* display cards ends */
+/* download button */
+.orange_download_button {
+  background-color: var(--secondary-color-orange);
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border: none;
+  color: var(--primary-color-green);
+  font-weight: 900;
+  /*margin-left: 5%;
+  */font-family: monospace;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,    height 0.2s ease;
+  -webkit-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,;
+  -moz-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,;
+  -ms-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,;
+  -o-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,;
+}
+.btnMargin{
+  margin: 2%;
+}
+/* download button ends */

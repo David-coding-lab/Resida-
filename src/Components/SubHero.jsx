@@ -1,3 +1,5 @@
+import DownloadBtn from "../Shared_Components/DownlloadBtn"
+
 const SubHero = ()=>{
     return(
         <div className='sub_hero_section'>
@@ -10,7 +12,7 @@ const SubHero = ()=>{
                     track of the  enquires you send to agents.
                 </h4>
             </div>
-            <button className='sub_hero_cta'>Download app &rarr;</button>
+            <DownloadBtn addMargin={true}/>
         </div>
     )
 }
