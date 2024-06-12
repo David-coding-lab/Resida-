@@ -19,9 +19,7 @@
   .quick_p_txt_container {
     width: 420px;
   }
-  .Feaqured_Properties_Section {
-    height: 100vh;
-  }
+
   .featured_title_container h1 {
     font-size: 2vw;
   }
@@ -50,9 +48,6 @@
     width: 40vw;
     height: 80%;
   }
-  .Feaqured_Properties_Section {
-    height: auto;
-  }
   .featured_items_cards_container {
     display: flex;
     flex-direction: column;
@@ -69,9 +64,6 @@
   .img_container img {
     width: 100%;
   }
-  .title_container {
-    width: 62vw;
-  }
   .card_title {
     font-size: 15px;
   }
@@ -80,8 +72,8 @@
     font-size: 10px;
   }
   .property_img_container {
-    width: 60vw;
-    height: 70vh;
+    /* width: 60vw; */
+    height: 60vh;
     overflow: hidden;
   }
 }
@@ -120,9 +112,6 @@
   .quick_p_txt_container {
     font-size: 12px;
   }
-  .Feaqured_Properties_Section {
-    height: 300vh;
-  }
   .cards {
     width: 55vw;
     margin: 0;
@@ -131,9 +120,6 @@
   }
   .title_container {
     width: 48vw;
-  }
-  .featured_title_container {
-    width: 90vw;
   }
   .property_sale_section {
     flex-direction: column;
@@ -146,7 +132,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 70vh;
+    height: 50vh;
   }
   .prop_heading_txt_container {
     text-align: center;
@@ -168,12 +154,14 @@
     width: 8vw;
   }
   .property_img_container {
-    width: 100vw;
+    width: auto;
+    height: auto;
     margin: 0;
   }
   .property_img_container img {
     display: flex;
-    width: 75vw;
+    width: auto;
+    height: 60vh;
   }
   .property_cta_txt_btn {
     width: 70vw;
@@ -259,18 +247,15 @@
   .nguid_txt_container article {
     font-size: 14px;
   }
-  .Feaqured_Properties_Section {
-    height: 180vh;
-  }
   .cards {
     width: 51vw;
   }
   .img_container {
     width: 50vw;
   }
-  .property_sale_section {
+  /* .property_sale_section {
     height: 70vh;
-  }
+  } */
 }
 /* extra-small */
 @media (max-width: 490px) {
@@ -380,14 +365,18 @@
     margin-top: 80px;
     padding: 10px;
   }
-  .Feaqured_Properties_Section {
-    height: 170vh;
-  }
   .property_sale_section {
-    height: 90vh;
     margin-top: 20px;
   }
-  .property_img_container {
-    overflow: visible;
+  .property_heading{
+    height: 60vh;
   }
+  .property_img_container{
+    width: auto;
+    height: auto;
+  }
+  .property_img_container img{
+   width: 100vw;
+  }
+  
 }

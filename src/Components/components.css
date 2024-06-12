@@ -4,7 +4,7 @@
   --secondry-font: "manrope";
   --secondary-color-orange: #dba94d;
 }
-button{
+button {
   cursor: pointer;
 }
 /* new sectio */
@@ -256,18 +256,20 @@ button{
 /* new section  */
 .Feaqured_Properties_Section {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
+  padding-block: 30px;
   /* justify-content: center; */
   align-items: center;
   text-align: center;
 }
 .featured_title_container {
-  width: 70%;
+  width: 100%;
   height: 100px;
   margin: 3.5% auto;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   text-align: center;
 }
@@ -292,7 +294,7 @@ button{
 /* section begins */
 .property_sale_section {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
 }
 .property_heading {
@@ -315,11 +317,6 @@ button{
   padding-bottom: 10px;
   font-size: 2vw;
 }
-.property_img_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .property_cta_txt_btn {
   width: 30vw;
   height: 40vh;
@@ -335,9 +332,10 @@ button{
 .property_img_container {
   display: flex;
   margin-left: auto;
-  overflow: hidden;
-  width: 85vh;
-  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
 }
 .property_img_container img {
   width: 100%;
