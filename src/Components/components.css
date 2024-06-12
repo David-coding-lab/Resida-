@@ -259,7 +259,7 @@ button{
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   text-align: center;
 }
@@ -294,7 +294,6 @@ button{
   width: 100vw;
   height: 100vh;
   display: flex;
-  padding: 20px;
 }
 .property_heading {
   padding-left: 10vw;
@@ -323,7 +322,7 @@ button{
 }
 .property_cta_txt_btn {
   width: 30vw;
-  height: 30vh;
+  height: 40vh;
   line-height: 30px;
   display: flex;
   flex-direction: column;
@@ -336,9 +335,12 @@ button{
 .property_img_container {
   display: flex;
   margin-left: auto;
+  overflow: hidden;
+  width: 85vh;
+  height: 100vh;
 }
 .property_img_container img {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 /* section ends */

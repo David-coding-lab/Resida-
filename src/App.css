@@ -33,7 +33,7 @@
     margin-top: 2.5%;
   }
 }
-@media all and (max-width: 900px) {
+@media all and (max-width: 860px) {
   .hero {
     height: 90vh;
   }
@@ -51,15 +51,15 @@
     height: 80%;
   }
   .Feaqured_Properties_Section {
-    height: 220vh;
+    height: auto;
   }
   .featured_items_cards_container {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: auto;
   }
   .cards {
-    width: 70vw;
+    width: 50vw;
     margin-bottom: 10%;
     margin-top: 0;
   }
@@ -121,7 +121,7 @@
     font-size: 12px;
   }
   .Feaqured_Properties_Section {
-    height: 150vh;
+    height: 300vh;
   }
   .cards {
     width: 55vw;
@@ -156,6 +156,7 @@
     width: 100vw;
   }
   .prop_heading_txt_container h1 {
+    margin-bottom: 7px;
     font-size: 6vw;
   }
   .prop_heading_txt_container h2 {
