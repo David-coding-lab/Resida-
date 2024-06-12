@@ -87,22 +87,22 @@ header {
   align-items: start;
   padding: 5px;
 }
-.img_container img{
+.img_container img {
   width: 20vw;
 }
-.title_container{
+.title_container {
   display: flex;
   width: 95%;
   justify-content: space-between;
   margin: 5px;
   font-size: 1vw;
 }
-.details_btn_container{
+.details_btn_container {
   margin-block: 10px;
   display: flex;
   flex-wrap: wrap;
 }
-.details_btn_container button{
+.details_btn_container button {
   width: auto;
   background-color: rgba(220, 220, 220, 0.61);
   border: none;
@@ -115,7 +115,7 @@ header {
   padding: 5px;
   font-weight: 600;
 }
-.card_pricing_perYear{
+.card_pricing_perYear {
   margin: 5px;
   color: gray;
 }
@@ -130,16 +130,28 @@ header {
   border: none;
   color: var(--primary-color-green);
   font-weight: 900;
-  /*margin-left: 5%;
-  */font-family: monospace;
+  font-family: monospace;
   cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,    height 0.2s ease;
-  -webkit-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,    height 0.2s ease;
-  -moz-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,    height 0.2s ease;
-  -ms-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,    height 0.2s ease;
-  -o-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,    height 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
+    height 0.2s ease;
+  -webkit-transition: background-color 0.2s ease, color 0.2s ease,
+    width 0.2s ease, height 0.2s ease;
+  -moz-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
+    height 0.2s ease;
+  -ms-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
+    height 0.2s ease;
+  -o-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
+    height 0.2s ease;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.btnMargin{
+.btnMargin {
   margin: 2%;
 }
 /* download button ends */

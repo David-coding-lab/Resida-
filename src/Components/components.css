@@ -342,3 +342,25 @@ button {
   height: 100%;
 }
 /* section ends */
+/* section begins */
+.discovery_section{
+  width: 100vw;
+  height: 50vh;
+  background-image: url(../assets/discover_section_img.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-size: cover;
+}
+.discovery_section_content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30vh;
+  font-size: 2vh
+}
+/* section ends */
