@@ -30,6 +30,31 @@
   .cards {
     margin-top: 2.5%;
   }
+  .property_cta_txt_btn p {
+    font-size: 1vw;
+    line-height: normal;
+  }
+  .property_cta_txt_btn .orange_download_button {
+    height: 5.5vh;
+    padding: 10px;
+    width: 13vw;
+    font-size: 1vw;
+  }
+  .property_img_container img {
+    width: 50vw;
+    height: auto;
+  }
+  .find_homes_card {
+    width: 20vw;
+    height: 40vh;
+  }
+  .find_homes_cards_container {
+    width: 90%;
+    gap: 25px;
+  }
+  .cardImg1 {
+    height: 82vh;
+  }
 }
 @media all and (max-width: 860px) {
   .hero {
@@ -71,10 +96,31 @@
     padding: 7px;
     font-size: 10px;
   }
-  .property_img_container {
-    /* width: 60vw; */
-    height: 60vh;
-    overflow: hidden;
+  .property_img_container img {
+    width: 20em;
+    height: 20em;
+  }
+  .find_homes_section {
+    height: 50vh;
+  }
+  .find_homes_card {
+    height: 15vh;
+  }
+  .cardImg1 {
+    height: 32vh;
+  }
+  .card_title_container {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .card_title_container h1 {
+    font-size: 12px;
+  }
+  .card_title_container h1 {
+    font-size: 8px;
   }
 }
 /* small sizd screen */
@@ -139,7 +185,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 120vw;
   }
   .prop_heading_txt_container h1 {
     margin-bottom: 7px;
@@ -253,9 +299,6 @@
   .img_container {
     width: 50vw;
   }
-  /* .property_sale_section {
-    height: 70vh;
-  } */
 }
 /* extra-small */
 @media (max-width: 490px) {
@@ -368,15 +411,34 @@
   .property_sale_section {
     margin-top: 20px;
   }
-  .property_heading{
+  .property_heading {
     height: 60vh;
   }
-  .property_img_container{
+  .property_img_container {
     width: auto;
     height: auto;
   }
-  .property_img_container img{
-   width: 100vw;
+  .property_img_container img {
+    width: 100vw;
   }
-  
+  .find_homes_card {
+    justify-content: start;
+  }
+  .card_title_container {
+    width: 100vw;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  .card_title_container h1 {
+    font-size: 8px;
+  }
+  .card_title_container :first-child {
+    font: 5px manrope;
+  }
 }

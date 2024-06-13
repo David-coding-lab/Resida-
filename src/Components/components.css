@@ -319,7 +319,7 @@ button {
 }
 .property_cta_txt_btn {
   width: 30vw;
-  height: 40vh;
+  height: 25vh;
   line-height: 30px;
   display: flex;
   flex-direction: column;
@@ -335,15 +335,16 @@ button {
   width: 100vw;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  justify-content: end;
+  height: auto;
 }
 .property_img_container img {
-  width: 100%;
-  height: 100%;
+  width: 50vw;
+  height: 40vh;
 }
 /* section ends */
 /* section begins */
-.discovery_section{
+.discovery_section {
   width: 100vw;
   height: 50vh;
   background-image: url(../assets/discover_section_img.png);
@@ -354,13 +355,105 @@ button {
   text-align: center;
   color: white;
   background-size: cover;
+  background-position: center;
 }
-.discovery_section_content{
+.discovery_section_content {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
   height: 30vh;
-  font-size: 2vh
+  font-size: 2vh;
+}
+/* section ends */
+/* section begins */
+.find_homes_section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.find_homes_title h1{
+  color: var(--primary-color-green);
+}
+.find_homes_title h3{
+  padding-top: 20px;
+  font-weight: 500;
+}
+.find_homes_cards_container {
+  width: 80%;
+  display: grid;
+  place-content: center;
+  grid-template-areas:
+    "firstCard secondCard thirdCard"
+    "firstCard fourthCard fifthCard";
+  gap: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.find_homes_card {
+  width: 18vw;
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 10px;
+}
+.cardImg1 {
+  background-image: url(../assets/card_img_1.png);
+  grid-area: firstCard;
+  height: auto;
+}
+.cardImg2 {
+  background-image: url(../assets/card_img_2.png);
+  grid-area: secondCard;
+}
+
+.cardImg3 {
+  background-image: url(../assets/card_img_3.png);
+  grid-area: thirdCard;
+}
+
+.cardImg4 {
+  background-image: url(../assets/card_img_4.png);
+  grid-area: fourthCard;
+}
+
+.cardImg5 {
+  background-image: url(../assets/card_img_5.png);
+  grid-area: fifthCard;
+}
+.card_title_container{
+  width: 80%;
+  background-color: rgba(241, 185, 56, 0.669);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: start;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: white;
+}
+.card_title_container h3{
+  font-size: 15px;
+}
+.card_title_container h1{
+  font-size: 22px;
 }
 /* section ends */
