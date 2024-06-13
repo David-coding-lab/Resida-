@@ -377,10 +377,10 @@ button {
   text-align: center;
   padding: 20px;
 }
-.find_homes_title h1{
+.find_homes_title h1 {
   color: var(--primary-color-green);
 }
-.find_homes_title h3{
+.find_homes_title h3 {
   padding-top: 20px;
   font-weight: 500;
 }
@@ -436,7 +436,7 @@ button {
   background-image: url(../assets/card_img_5.png);
   grid-area: fifthCard;
 }
-.card_title_container{
+.card_title_container {
   width: 80%;
   background-color: rgba(241, 185, 56, 0.669);
   border-radius: 20px;
@@ -451,15 +451,15 @@ button {
   -o-border-radius: 20px;
   color: white;
 }
-.card_title_container h3{
+.card_title_container h3 {
   font-size: 15px;
 }
-.card_title_container h1{
+.card_title_container h1 {
   font-size: 22px;
 }
 /* section ends */
 /* section begins */
-.need_an_office_section{
+.need_an_office_section {
   width: 100vw;
   height: 50vh;
   padding: 20px;
@@ -467,21 +467,87 @@ button {
   justify-content: center;
   align-items: center;
 }
-.office_space_img_container img{
+.office_space_img_container img {
   width: 30vw;
   height: auto;
 }
-.office_space_txt_container{
+.office_space_txt_container {
   width: 33vw;
   margin-left: 50px;
   margin-bottom: 60px;
 }
-.office_space_txt_container h1{
+.office_space_txt_container h1 {
   margin-bottom: 30px;
   color: var(--primary-color-green-thick);
 }
-.office_space_txt_container article{
+.office_space_txt_container article {
   line-height: 30px;
   color: gray;
 }
 /* section ends */
+/* section begins */
+.download_app_section{
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.dwnAppSec_txt_ctaBtn_container{
+  padding-top: 100px;
+  width: 35vw;
+}
+.dwnAppSec_txt_ctaBtn_container h1{
+  color: var(--primary-color-green);
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.dwnAppSec_txt_ctaBtn_container article{
+  font-size: 1vw;
+  margin-bottom: 30px;
+  line-height: 25px;
+  padding-left: 10px;
+}
+.dwnAppSec_cta_btn_container {
+  display: flex;
+  padding: 0;
+}
+.download_cta_btns {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color-green);
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+.icon_container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+}
+.cta_txt_container {
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  color: white;
+}
+.cta_txt_container img {
+  width: 15px;
+  margin-top: 10px;
+  margin-right: 15px;
+  height: 17px;
+}
+.dwnAppSec_img_container img{
+  margin: 20% auto;
+  width: 30vw;
+}
+/* section end */
