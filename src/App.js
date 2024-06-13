@@ -12,6 +12,7 @@ import FeaquredPropertiesSection from "./Components/FeaquredPropertiesSection";
 import PropertySaleSection from "./Components/PropertySaleSection";
 import DiscoverySection from "./Components/Discovry_section";
 import FindHomesSection from "./Components/FindHomesSection";
+import NeedAnOfficeSpace from "./Components/NeedAnOfficeSection";
 
 export function randomNumber(){
     return Math.floor(Math.random() * 10000)
@@ -30,6 +31,7 @@ export default function App() {
       <PropertySaleSection />
       <DiscoverySection />
       <FindHomesSection />
+      <NeedAnOfficeSpace />
     </div>
   );
 }

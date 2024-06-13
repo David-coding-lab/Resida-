@@ -1,6 +1,6 @@
 :root {
   --primary-color-green: #1f4b43;
-  --primary-color-green-thick: #1f4b43;
+  --primary-color-green-thick: #1c423b;
   --secondry-font: "manrope";
   --secondary-color-orange: #dba94d;
 }
@@ -369,7 +369,7 @@ button {
 /* section begins */
 .find_homes_section {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -386,6 +386,7 @@ button {
 }
 .find_homes_cards_container {
   width: 80%;
+  height: auto;
   display: grid;
   place-content: center;
   grid-template-areas:
@@ -455,5 +456,32 @@ button {
 }
 .card_title_container h1{
   font-size: 22px;
+}
+/* section ends */
+/* section begins */
+.need_an_office_section{
+  width: 100vw;
+  height: 50vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.office_space_img_container img{
+  width: 30vw;
+  height: auto;
+}
+.office_space_txt_container{
+  width: 33vw;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+.office_space_txt_container h1{
+  margin-bottom: 30px;
+  color: var(--primary-color-green-thick);
+}
+.office_space_txt_container article{
+  line-height: 30px;
+  color: gray;
 }
 /* section ends */
