@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Resida-/static/css/main.f6e70426.css",
-    "main.js": "/Resida-/static/js/main.fb353d84.js",
+    "main.css": "/Resida-/static/css/main.32673ee4.css",
+    "main.js": "/Resida-/static/js/main.fb16e0e6.js",
     "static/media/lANDING-PAGE-IMG.png": "/Resida-/static/media/lANDING-PAGE-IMG.2d72eaae2b539bbaf279.png",
     "static/media/exp_img.png": "/Resida-/static/media/exp_img.c788f0136bd0a9018be0.png",
+    "static/media/need an office img.png": "/Resida-/static/media/need an office img.d5324f5095de71c1eb78.png",
     "static/media/discover_section_img.png": "/Resida-/static/media/discover_section_img.85769201342ec10847c8.png",
     "static/media/quickPreviwe_img.png": "/Resida-/static/media/quickPreviwe_img.8b93b97b75dedd6bad03.png",
     "static/media/house display.png": "/Resida-/static/media/house display.e564ff162a0b5c7ee39a.png",
     "static/media/card_img_1.png": "/Resida-/static/media/card_img_1.d6385b8192b910ad0ead.png",
+    "static/media/download app mobile.png": "/Resida-/static/media/download app mobile.b2b78c21ac972e0449c0.png",
     "static/media/house template.png": "/Resida-/static/media/house template.f49f65d9c146eda5a514.png",
     "static/media/card_img_3.png": "/Resida-/static/media/card_img_3.62f18fce8b576267adb0.png",
     "static/media/card house 3.png": "/Resida-/static/media/card house 3.83f770f2d323793a0e0e.png",
@@ -22,11 +24,11 @@
     "static/media/experience-pic-3.png": "/Resida-/static/media/experience-pic-3.e411a5cd5f7ec7f0cbc3.png",
     "static/media/heart icon.svg": "/Resida-/static/media/heart icon.38bc3eb9b17a6a7880ab7517a29c5a8c.svg",
     "index.html": "/Resida-/index.html",
-    "main.f6e70426.css.map": "/Resida-/static/css/main.f6e70426.css.map",
-    "main.fb353d84.js.map": "/Resida-/static/js/main.fb353d84.js.map"
+    "main.32673ee4.css.map": "/Resida-/static/css/main.32673ee4.css.map",
+    "main.fb16e0e6.js.map": "/Resida-/static/js/main.fb16e0e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6e70426.css",
-    "static/js/main.fb353d84.js"
+    "static/css/main.32673ee4.css",
+    "static/js/main.fb16e0e6.js"
   ]
 }
