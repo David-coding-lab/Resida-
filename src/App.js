@@ -14,6 +14,7 @@ import DiscoverySection from "./Components/Discovry_section";
 import FindHomesSection from "./Components/FindHomesSection";
 import NeedAnOfficeSpace from "./Components/NeedAnOfficeSection";
 import DownloadAppSection from "./Components/DownloadAppSection";
+import Footer from "./assets/Footer";
 
 export function randomNumber(){
     return Math.floor(Math.random() * 10000)
@@ -34,6 +35,7 @@ export default function App() {
       <FindHomesSection />
       <NeedAnOfficeSpace />
       <DownloadAppSection />
+      <Footer />
     </div>
   );
 }

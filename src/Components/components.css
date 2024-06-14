@@ -486,22 +486,22 @@ button {
 }
 /* section ends */
 /* section begins */
-.download_app_section{
+.download_app_section {
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
 }
-.dwnAppSec_txt_ctaBtn_container{
+.dwnAppSec_txt_ctaBtn_container {
   padding-top: 100px;
   width: 35vw;
 }
-.dwnAppSec_txt_ctaBtn_container h1{
+.dwnAppSec_txt_ctaBtn_container h1 {
   color: var(--primary-color-green);
   margin-bottom: 30px;
   padding: 10px;
 }
-.dwnAppSec_txt_ctaBtn_container article{
+.dwnAppSec_txt_ctaBtn_container article {
   font-size: 1vw;
   margin-bottom: 30px;
   line-height: 25px;
@@ -546,8 +546,78 @@ button {
   margin-right: 15px;
   height: 17px;
 }
-.dwnAppSec_img_container img{
+.dwnAppSec_img_container img {
   margin: 20% auto;
   width: 30vw;
 }
 /* section end */
+/* section begins */
+.footer {
+  width: 100vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color-green);
+  padding-inline: 100px;
+  padding-block: 20px;
+  color: white;
+}
+.fstlinks {
+  display: flex;
+}
+.residaSocialSection p {
+  width: 200px;
+  margin-block: 20px;
+}
+.social_icons img {
+  margin-right: 15px;
+}
+.product,
+.company,
+.support,
+.legal {
+  margin-left: 20px;
+  display: flex;
+  width: 150px;
+  height: 200px;
+  flex-direction: column;
+}
+.product a,
+.company a,
+.support a,
+.legal a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  padding-block: 5px;
+}
+.sndLinks {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sndLinks a {
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+.thdlinks {
+  display: flex;
+  /* justify-content: space-between */
+}
+.all_right_reserved {
+  margin-left: auto;
+}
+.thdlinks a {
+  color: white;
+  text-decoration: none;
+}
+.term_condition,
+.policy {
+  margin-left: auto;
+  margin-inline: 5px;
+  text-decoration: underline !important;
+}
+
+/* section begins */
