@@ -505,7 +505,12 @@
     height: 100vh;
   }
   .dwnAppSec_txt_ctaBtn_container {
+    padding: 0;
     width: 50vw;
+    font-size: 20px;
+  }
+  .dwnAppSec_cta_btn_container{
+    flex-direction: column;
   }
   .dwnAppSec_img_container img {
     margin: 0;

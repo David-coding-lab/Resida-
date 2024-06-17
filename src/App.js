@@ -14,7 +14,7 @@ import DiscoverySection from "./Components/Discovry_section";
 import FindHomesSection from "./Components/FindHomesSection";
 import NeedAnOfficeSpace from "./Components/NeedAnOfficeSection";
 import DownloadAppSection from "./Components/DownloadAppSection";
-import Footer from "./assets/Footer";
+import Footer from './Shared_Components/Footer'
 import { useState } from "react";
 import ResidaIsComingSoon from "./Shared_Components/ResidaIsComingSoon";
 import Overlay from "./Overlay";

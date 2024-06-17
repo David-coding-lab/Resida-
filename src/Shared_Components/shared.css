@@ -159,7 +159,7 @@ header {
 
 .resida_coming_Soon {
   display: flex;
-  animation: ease-in-out .6s grow;
+  animation: ease-in-out 0.6s grow;
   flex-direction: column;
   position: fixed;
   width: 35em;
@@ -177,7 +177,7 @@ header {
   color: var(--primary-color-green);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  -webkit-animation: ease-in-out .6s grow;
+  -webkit-animation: ease-in-out 0.6s grow;
 }
 .coming_soon_btn {
   margin-top: 30px;
@@ -192,17 +192,17 @@ header {
   -o-border-radius: 10px;
   border-bottom-left-radius: 0;
 }
-.coming_soon_btn1{
+.coming_soon_btn1 {
   background-color: var(--secondary-color-orange);
-  border:none;
+  border: none;
   font-weight: 800;
 }
-.coming_soon_btn2{
+.coming_soon_btn2 {
   background-color: white;
   border: 1px solid var(--primary-color-green);
   font-weight: 700;
 }
-.overlay{
+.overlay {
   width: 100vw;
   height: 100vh;
   z-index: 10;
