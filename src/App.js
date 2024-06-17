@@ -1,6 +1,6 @@
 import "./Shared_Components/shared.css";
-import "./Components/components.css";
 import "./App.css";
+import "./Components/components.css"
 import Header from "./Shared_Components/Header";
 import Hero from "./Components/Hero";
 import SubHero from "./Components/SubHero";

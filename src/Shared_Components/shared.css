@@ -122,6 +122,7 @@ header {
 /* display cards ends */
 /* download button */
 .orange_download_button {
+  display: flex;
   background-color: var(--secondary-color-orange);
   width: 180px;
   height: 40px;
@@ -132,21 +133,15 @@ header {
   font-weight: 900;
   font-family: monospace;
   cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
-    height 0.2s ease;
-  -webkit-transition: background-color 0.2s ease, color 0.2s ease,
-    width 0.2s ease, height 0.2s ease;
-  -moz-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
-    height 0.2s ease;
-  -ms-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
-    height 0.2s ease;
-  -o-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,
-    height 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,    height 0.2s ease;
+  -webkit-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,;
+  -moz-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,;
+  -ms-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,;
+  -o-transition: background-color 0.2s ease, color 0.2s ease, width 0.2s ease,;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;

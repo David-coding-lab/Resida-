@@ -69,7 +69,7 @@
     line-height: normal;
   }
 }
-@media all and (max-width: 860px) {
+@media all and (max-width: 890px) {
   .hero {
     height: 90vh;
   }
@@ -109,10 +109,7 @@
     padding: 7px;
     font-size: 10px;
   }
-  .property_img_container img {
-    width: 20em;
-    height: 20em;
-  }
+
   .find_homes_card {
     height: 15vh;
   }
@@ -131,6 +128,10 @@
   }
   .card_title_container h1 {
     font-size: 8px;
+  }
+  .property_cta_txt_btn {
+    height: 55vh;
+    font-size: 13px;
   }
   .need_an_office_section {
     height: 50vh;
@@ -204,7 +205,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vh;
+    height: auto;
   }
   .prop_heading_txt_container {
     text-align: center;
@@ -228,7 +229,8 @@
   .property_img_container {
     width: auto;
     height: auto;
-    margin: 0;
+    justify-content: center !important;
+    margin-top: 8em;
   }
   .property_img_container img {
     display: flex;
@@ -236,7 +238,8 @@
     height: 60vh;
   }
   .property_cta_txt_btn {
-    width: 70vw;
+    background-color: cornsilk;
+    width: 100vw;
     align-items: center;
     height: fit-content;
   }
@@ -499,7 +502,7 @@
   .office_space_txt_container article {
     line-height: normal;
   }
-  .download_app_section{
+  .download_app_section {
     flex-direction: column-reverse;
     align-items: center;
     height: 100vh;
@@ -509,14 +512,14 @@
     width: 50vw;
     font-size: 20px;
   }
-  .dwnAppSec_cta_btn_container{
+  .dwnAppSec_cta_btn_container {
     flex-direction: column;
   }
   .dwnAppSec_img_container img {
     margin: 0;
     width: 60vw;
   }
-  .footer{
+  .footer {
     flex-direction: column;
   }
 }

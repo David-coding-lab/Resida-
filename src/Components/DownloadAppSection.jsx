@@ -3,7 +3,12 @@ import appleIcon from "../assets/apple icon.png";
 import playStoreIcon from "../assets/play store icon.png";
 const DownloadCtaBtns = (props) => {
   return (
-    <button className="download_cta_btns">
+    <button
+      className="download_cta_btns"
+      onClick={() => {
+        props.setResidaComingSoon(true);
+      }}
+    >
       <div className="cta_txt_container">
         <img src={props.icon} alt="icon" />
         <p>
@@ -14,11 +19,13 @@ const DownloadCtaBtns = (props) => {
     </button>
   );
 };
-const DownloadAppSection = () => {
+const DownloadAppSection = ({ setResidaComingSoon}) => {
   return (
     <div className="download_app_section">
       <div className="dwnAppSec_txt_ctaBtn_container">
-        <h1>Download <br /> our App</h1>
+        <h1>
+          Download <br /> our App
+        </h1>
         <article>
           With intuitive search features and a curated selection of properties
           tailored to your preferences, finding your dream home has never been
@@ -30,11 +37,13 @@ const DownloadAppSection = () => {
             icon={appleIcon}
             txt1="Download on the"
             txt2="Apple Store"
+            setResidaComingSoon={setResidaComingSoon}
           />
           <DownloadCtaBtns
             icon={playStoreIcon}
             txt1="Get in on"
             txt2="Google Play"
+            setResidaComingSoon={setResidaComingSoon}
           />
         </div>
       </div>

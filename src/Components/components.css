@@ -296,6 +296,7 @@ button {
   width: 100vw;
   height: auto;
   display: flex;
+  padding: 20px;
 }
 .property_heading {
   padding-left: 10vw;
@@ -319,7 +320,7 @@ button {
 }
 .property_cta_txt_btn {
   width: 30vw;
-  height: 25vh;
+  height: 35vh;
   line-height: 30px;
   display: flex;
   flex-direction: column;
@@ -340,7 +341,7 @@ button {
 }
 .property_img_container img {
   width: 50vw;
-  height: 40vh;
+  height: auto;
 }
 /* section ends */
 /* section begins */
