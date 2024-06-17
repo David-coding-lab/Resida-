@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Resida-/static/css/main.49845bf4.css",
-    "main.js": "/Resida-/static/js/main.4fc250a3.js",
+    "main.css": "/Resida-/static/css/main.b3c47864.css",
+    "main.js": "/Resida-/static/js/main.af360649.js",
     "static/media/lANDING-PAGE-IMG.png": "/Resida-/static/media/lANDING-PAGE-IMG.2d72eaae2b539bbaf279.png",
     "static/media/exp_img.png": "/Resida-/static/media/exp_img.c788f0136bd0a9018be0.png",
     "static/media/need an office img.png": "/Resida-/static/media/need an office img.d5324f5095de71c1eb78.png",
@@ -24,11 +24,11 @@
     "static/media/experience-pic-3.png": "/Resida-/static/media/experience-pic-3.e411a5cd5f7ec7f0cbc3.png",
     "static/media/heart icon.svg": "/Resida-/static/media/heart icon.38bc3eb9b17a6a7880ab7517a29c5a8c.svg",
     "index.html": "/Resida-/index.html",
-    "main.49845bf4.css.map": "/Resida-/static/css/main.49845bf4.css.map",
-    "main.4fc250a3.js.map": "/Resida-/static/js/main.4fc250a3.js.map"
+    "main.b3c47864.css.map": "/Resida-/static/css/main.b3c47864.css.map",
+    "main.af360649.js.map": "/Resida-/static/js/main.af360649.js.map"
   },
   "entrypoints": [
-    "static/css/main.49845bf4.css",
-    "static/js/main.4fc250a3.js"
+    "static/css/main.b3c47864.css",
+    "static/js/main.af360649.js"
   ]
 }
