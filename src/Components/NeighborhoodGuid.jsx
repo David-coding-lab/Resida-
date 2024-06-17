@@ -1,6 +1,6 @@
 import DownloadBtn from "../Shared_Components/DownlloadBtn";
 import map from "../assets/Map 1.png";
-const NeighborhoodGuid = () => {
+const NeighborhoodGuid = ({setResidaComingSoon}) => {
   return (
     <div className="neighborhoodGuid_section">
       <div className="nguid_img_container">
@@ -17,7 +17,7 @@ const NeighborhoodGuid = () => {
             🏡✨
           </article>
         </div>
-       <DownloadBtn addMargin={true}/>
+       <DownloadBtn addMargin={true} setResidaComingSoon={setResidaComingSoon}/>
       </div>
     </div>
   );

@@ -155,3 +155,58 @@ header {
   margin: 2%;
 }
 /* download button ends */
+/* resida coming soon */
+
+.resida_coming_Soon {
+  display: flex;
+  animation: ease-in-out .6s grow;
+  flex-direction: column;
+  position: fixed;
+  width: 35em;
+  height: 20em;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  top: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--primary-color-green);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-animation: ease-in-out .6s grow;
+}
+.coming_soon_btn {
+  margin-top: 30px;
+  margin-inline: 10px;
+  border-radius: 10px;
+  color: var(--primary-color-green);
+  width: 150px;
+  height: 50px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-bottom-left-radius: 0;
+}
+.coming_soon_btn1{
+  background-color: var(--secondary-color-orange);
+  border:none;
+  font-weight: 800;
+}
+.coming_soon_btn2{
+  background-color: white;
+  border: 1px solid var(--primary-color-green);
+  font-weight: 700;
+}
+.overlay{
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  position: fixed;
+  background-color: rgba(24, 24, 24, 0.468);
+}
+/* ends */

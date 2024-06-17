@@ -511,4 +511,7 @@
     margin: 0;
     width: 60vw;
   }
+  .footer{
+    flex-direction: column;
+  }
 }

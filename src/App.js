@@ -15,27 +15,41 @@ import FindHomesSection from "./Components/FindHomesSection";
 import NeedAnOfficeSpace from "./Components/NeedAnOfficeSection";
 import DownloadAppSection from "./Components/DownloadAppSection";
 import Footer from "./assets/Footer";
-
-export function randomNumber(){
-    return Math.floor(Math.random() * 10000)
+import { useState } from "react";
+import ResidaIsComingSoon from "./Shared_Components/ResidaIsComingSoon";
+import Overlay from "./Overlay";
+export function randomNumber() {
+  return Math.floor(Math.random() * 10000);
 }
 export default function App() {
+  const [residaComingSoon, setResidaComingSoon] = useState(false);
+  const [showOverlay, setShowOverlay] = useState(false);
   return (
-    <div>
-      <Header />
-      <Hero />
-      <SubHero />
-      <ExpSection />
-      <SubExpSection />
-      <QuickPreviewSection />
-      <NeighborhoodGuid />
-      <FeaquredPropertiesSection />
-      <PropertySaleSection />
-      <DiscoverySection />
-      <FindHomesSection />
-      <NeedAnOfficeSpace />
-      <DownloadAppSection />
-      <Footer />
-    </div>
+    <>
+      {/* remember to work on this */}
+      {showOverlay && <Overlay />}
+      {residaComingSoon && (
+        <ResidaIsComingSoon
+          setResidaComingSoon={setResidaComingSoon}
+          setShowOverlay={setShowOverlay}
+        />
+      )}
+      <div>
+        <Header setResidaComingSoon={setResidaComingSoon}/>
+        <Hero setResidaComingSoon={setResidaComingSoon} />
+        <SubHero setResidaComingSoon={setResidaComingSoon} />
+        <ExpSection />
+        <SubExpSection />
+        <QuickPreviewSection setResidaComingSoon={setResidaComingSoon} />
+        <NeighborhoodGuid setResidaComingSoon={setResidaComingSoon} />
+        <FeaquredPropertiesSection />
+        <PropertySaleSection setResidaComingSoon={setResidaComingSoon} />
+        <DiscoverySection setResidaComingSoon={setResidaComingSoon} />
+        <FindHomesSection />
+        <NeedAnOfficeSpace />
+        <DownloadAppSection setResidaComingSoon={setResidaComingSoon} />
+        <Footer />
+      </div>
+    </>
   );
 }

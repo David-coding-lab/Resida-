@@ -23,54 +23,54 @@ const Footer = () => {
         </div>
         <div className="product">
           <h3>Product</h3>
-          <a href="">Pricing </a>
-          <a href="">Case study</a>
-          <a href="">Review</a>
-          <a href="">Updates</a>
+          <a href="#">Pricing </a>
+          <a href="#">Case study</a>
+          <a href="#">Review</a>
+          <a href="#">Updates</a>
         </div>
         <div className="company">
           <h3>Company</h3>
-          <a href="">Contact us </a>
-          <a href="">Careers</a>
-          <a href="">Culture</a>
-          <a href="">Blog</a>
+          <a href="#">Contact us </a>
+          <a href="#">Careers</a>
+          <a href="#">Culture</a>
+          <a href="#">Blog</a>
         </div>
         <div className="support">
           <h3>Support</h3>
-          <a href="">Help center </a>
-          <a href="">Server status</a>
-          <a href="">Report A bug</a>
-          <a href="">Chat support</a>
+          <a href="#">Help center </a>
+          <a href="#">Server status</a>
+          <a href="#">Report A bug</a>
+          <a href="#">Chat support</a>
         </div>
         <div className="legal">
           <h3>Legal</h3>
-          <a href="">User Term of us</a>
-          <a href="">Paymeny & pricing policy</a>
-          <a href="">Cookies & Data Pricacy</a>
+          <a href="#">User Term of us</a>
+          <a href="#">Paymeny & pricing policy</a>
+          <a href="#">Cookies & Data Pricacy</a>
         </div>
       </div>
       <div className="sndLinks">
-        <a href="">
+        <a href="#">
           <img src={gmailIcon} alt="icons" /> contact@company.com
         </a>
-        <a href="">
+        <a href="#">
           <img src={phoneIcon} alt="icon" /> (414) 687 - 5892
         </a>
-        <a href="">
+        <a href="#">
           794 Mcallister St San Francisco, 94102{" "}
           <img src={locationIcon} alt="icon" />
         </a>
       </div>
       <hr />
       <div className="thdlinks">
-        <a href="">Copyright © 2022 BRIX Templates</a>
+        <a href="#">Copyright © 2022 BRIX Templates</a>
         <div className="all_right_reserved">
-          <a href=""> All Rights Reserved |</a>
-          <a href="" className="term_condition">
+          <a href="#"> All Rights Reserved |</a>
+          <a href="#" className="term_condition">
             Terms and Conditions
           </a>{" "}
           |{" "}
-          <a href="" className="policy">
+          <a href="#" className="policy">
             Privacy Policy
           </a>
         </div>

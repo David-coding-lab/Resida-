@@ -4,7 +4,7 @@ import houseIcon_1 from "../assets/house icon 1.png";
 import houseIcon_2 from "../assets/house icon 2.png";
 import houseIcon_3 from "../assets/house icon 3.png";
 import houseIcon_4 from "../assets/house icon 4.png";
-const PropertySaleSection = () => {
+const PropertySaleSection = ({setResidaComingSoon}) => {
   return (
     <div className="property_sale_section">
       <div className="property_heading">
@@ -24,7 +24,7 @@ const PropertySaleSection = () => {
             accommodations and connect with eager tenants seeking their perfect
             home in the vibrant city of Lagos.
           </p>
-          <DownloadBtn addMargin={false}/>
+          <DownloadBtn addMargin={false} setResidaComingSoon={setResidaComingSoon}/>
         </div>
       </div>
       <div className="property_img_container">
