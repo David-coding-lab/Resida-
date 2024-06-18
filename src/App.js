@@ -18,24 +18,29 @@ import Footer from './Shared_Components/Footer'
 import { useState } from "react";
 import ResidaIsComingSoon from "./Shared_Components/ResidaIsComingSoon";
 import Overlay from "./Overlay";
+import ContactSection from "./Components/ContactSection";
 export function randomNumber() {
   return Math.floor(Math.random() * 10000);
 }
 export default function App() {
   const [residaComingSoon, setResidaComingSoon] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
+  const [showContactPage, setContactPage] = useState(false);
+  console.log(showContactPage);
   return (
     <>
-      {/* remember to work on this */}
+    {/* these elements are ontop of all other things */}
       {showOverlay && <Overlay />}
       {residaComingSoon && (
         <ResidaIsComingSoon
           setResidaComingSoon={setResidaComingSoon}
           setShowOverlay={setShowOverlay}
+          setContactPage={setContactPage}
         />
       )}
+      {showContactPage && <ContactSection />}
       <div>
-        <Header setResidaComingSoon={setResidaComingSoon}/>
+        <Header setContactPage={setContactPage} setResidaComingSoon={setResidaComingSoon}/>
         <Hero setResidaComingSoon={setResidaComingSoon} />
         <SubHero setResidaComingSoon={setResidaComingSoon} />
         <ExpSection />

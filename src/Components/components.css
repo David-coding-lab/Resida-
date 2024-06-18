@@ -462,7 +462,7 @@ button {
 /* section begins */
 .need_an_office_section {
   width: 100vw;
-  height: 50vh;
+  height: auto;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -621,5 +621,19 @@ button {
   margin-inline: 5px;
   text-decoration: underline !important;
 }
-
+/* section ends */
 /* section begins */
+.contac_section{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primary-color-green);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  position: fixed;
+}
+/* section ends */

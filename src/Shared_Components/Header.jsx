@@ -1,6 +1,6 @@
 import residaLogo from "../assets/Resida-logo.png";
 import menu from "../assets/burger-menu-svgrepo-com.png";
-const Header = ({setResidaComingSoon}) => {
+const Header = ({ setResidaComingSoon, setContactPage }) => {
   return (
     <header>
       <span className="header_left">
@@ -13,7 +13,14 @@ const Header = ({setResidaComingSoon}) => {
         </button>
       </span>
       <span className="header_right">
-        <button className="header_cta_contact">Contact</button>
+        <button
+          className="header_cta_contact"
+          onClick={() => {
+            setContactPage(true);
+          }}
+        >
+          Contact
+        </button>
         <button
           className="header_cta_download-app"
           onClick={() => setResidaComingSoon(true)}

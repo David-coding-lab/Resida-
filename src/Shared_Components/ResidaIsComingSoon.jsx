@@ -1,4 +1,8 @@
-const ResidaIsComingSoon = ({ setShowOverlay, setResidaComingSoon }) => {
+const ResidaIsComingSoon = ({
+  setContactPage,
+  setShowOverlay,
+  setResidaComingSoon,
+}) => {
   setShowOverlay(true);
   return (
     <div className="resida_coming_Soon">
@@ -15,7 +19,14 @@ const ResidaIsComingSoon = ({ setShowOverlay, setResidaComingSoon }) => {
         >
           Ok, can't wait
         </button>
-        <button className="coming_soon_btn coming_soon_btn2">Contact us</button>
+        <button
+          className="coming_soon_btn coming_soon_btn2"
+          onClick={() => {
+            setContactPage(true);
+          }}
+        >
+          Contact us
+        </button>
       </div>
     </div>
   );
