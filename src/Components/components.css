@@ -166,10 +166,7 @@ button {
   align-items: center;
 }
 .reabon {
-  position: relative;
-  bottom: 4vw;
-  left: 11vw;
-  width: 3vw;
+  display: none;
 }
 .sub_exp_img_container img {
   margin-inline: 5px;
@@ -496,7 +493,7 @@ button {
 .dwnAppSec_txt_ctaBtn_container {
   padding-top: 100px;
   width: 35vw;
-  height: auto ;
+  height: auto;
 }
 .dwnAppSec_txt_ctaBtn_container h1 {
   color: var(--primary-color-green);
@@ -623,10 +620,10 @@ button {
 }
 /* section ends */
 /* section begins */
-.contac_section{
+.contact_section {
   width: 100vw;
   height: 100vh;
-  background-color: var(--primary-color-green);
+  background-color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -635,5 +632,194 @@ button {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   position: fixed;
+  padding: 10px;
+}
+.contact_header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contact_header h1 {
+  color: var(--primary-color-green);
+}
+.contact_header h4 {
+  color: gray;
+}
+.contact_body {
+  display: flex;
+  margin: 2% auto;
+  width: 90vw;
+  height: 80vh;
+}
+.contact_body_left_sec {
+  background-color: var(--primary-color-green);
+  margin-right: 50px;
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+}
+.contact_titles {
+  margin: 5% auto;
+  text-align: center;
+}
+.contact_titles h2 {
+  color: white;
+  letter-spacing: 2px;
+  margin-block: 10px;
+}
+.contact_titles h4 {
+  color: rgb(148, 148, 148);
+  font-weight: 500;
+}
+.contact_details {
+  height: 20%;
+  margin: 10% auto;
+  width: 20em;
+}
+.contact_icon {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+}
+.contact_icon p {
+  margin-left: 20px;
+  text-align: start;
+  width: auto;
+  color: white;
+}
+.footerIcons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 4vh;
+  margin-top: 70%;
+  padding-left: 50px;
+}
+.trans_circle {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(221, 219, 219, 0.208);
+  position: relative;
+  left: 20em;
+  top: -5em;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.footer_icon_con,
+.footer_icon_con2 {
+  width: 25px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 25px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-inline: 10px;
+  cursor: pointer;
+}
+.footer_icon_con2 {
+  background-color: white;
+}
+.contact_body_right_sec {
+  width: 60vw;
+}
+.fname_lname,
+.email_phone {
+  display: flex;
+}
+form {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+form span {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: space-between;
+}
+form span label {
+  padding-block: 10px;
+  color: #393838;
+}
+form span input {
+  border: none;
+  border-bottom: 1px solid #8d8d8d;
+  width: 200px;
+  height: 40px;
+  margin-inline-end: 10px;
+  color: rgba(0, 0, 0, 0.798);
+}
+.message_subject {
+  height: 20vh;
+}
+.message_subject h4 {
+  color: var(--primary-color-green);
+  font-weight: 900;
+  margin-block: 10px;
+}
+.checkboxes_container{
+  display: flex;
+}
+.checkbox_checkboxValue {
+  display: flex;
+  width: fit-content;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+.checkBox {
+  width: 17px;
+  height: 17px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(152, 152, 152, 0.262);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+  width: flex ;
+  height: 150px;
+}
+.message label{
+  color: #8d8d8d;
+}
+.message input{
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #8d8d8d;
+  margin-bottom: 25px;
+}
+.message button{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  background-color: var(--secondary-color-orange);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color-green-thick);
+  gap: 10px;
+  font-weight: 800  ;
+  align-self: flex-end;
 }
 /* section ends */

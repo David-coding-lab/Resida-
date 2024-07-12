@@ -38,7 +38,7 @@ export default function App() {
           setContactPage={setContactPage}
         />
       )}
-      {showContactPage && <ContactSection />}
+      {showContactPage && <ContactSection  setContactPage={setContactPage}/>}
       <div>
         <Header setContactPage={setContactPage} setResidaComingSoon={setResidaComingSoon}/>
         <Hero setResidaComingSoon={setResidaComingSoon} />

@@ -23,6 +23,8 @@ const ResidaIsComingSoon = ({
           className="coming_soon_btn coming_soon_btn2"
           onClick={() => {
             setContactPage(true);
+            setResidaComingSoon(false);
+            setShowOverlay(false);
           }}
         >
           Contact us
